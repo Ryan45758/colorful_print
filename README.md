@@ -48,11 +48,13 @@ white | purple
 orange  | 
 
 ## Example
+
 #### Colorful Text
+
 ```dart
 void main(){
-...
-Print.log(123, color: TextColor.black);
+    ...
+    Print.log(123, color: TextColor.black);
     Print.log(123, color: TextColor.red);
     Print.log(123, color: TextColor.green);
     Print.log(123, color: TextColor.yellow);
@@ -64,10 +66,11 @@ Print.log(123, color: TextColor.black);
 }
 ```
 #### Colorful Text with Background Color
+
 ```dart
 void main(){
     ...
-Print.log(123, color: TextColor.black, backgroundColor: BackGroundColor.purple);
+    Print.log(123, color: TextColor.black, backgroundColor: BackGroundColor.purple);
     Print.log(123, color: TextColor.red, backgroundColor: BackGroundColor.white);
     Print.log(123, color: TextColor.green, backgroundColor: BackGroundColor.cyan);
     Print.log(123, color: TextColor.yellow, backgroundColor: BackGroundColor.blue);
