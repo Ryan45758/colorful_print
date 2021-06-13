@@ -1,6 +1,6 @@
 name: colorful_print
-description: Print colored message on the terminal.
-version: 0.0.2
+description: This package can print colored message on the terminal at the place you want to print conspicuously, to avoid looking at a bunch of dense output and still can't find the output you want.
+version: 0.0.3
 homepage: https://www.r-dap.com
 repository: https://github.com/Ryan45758/colorful_print
 environment:
