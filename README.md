@@ -15,11 +15,10 @@ A new Flutter package colorful_print develop by [R-Dap](https://r-dap.com)，thi
 	</thead>
 	<tr>
 		<td>
-			<img src="https://i.imgur.com/qW76WaU.png"/>
+			<center><img src="https://i.imgur.com/qW76WaU.png"/></center>
 		</td>
 		<td>
-			<img src="https://i.imgur.com/HElTsNf.png"/> 
-		</td>
+			<center><img src="https://i.imgur.com/HElTsNf.png"/></center>
 	</tr>
 </table>
 
