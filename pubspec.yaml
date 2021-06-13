@@ -1,9 +1,8 @@
 name: colorful_print
 description: Print colored message on the terminal.
-version: 0.0.1
-author: R-DAP <RDap.official.tw@gmail.com>
+version: 0.0.2
 homepage: https://www.r-dap.com
-
+repository: https://github.com/Ryan45758/colorful_print
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0"
@@ -11,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
 
 dev_dependencies:
   flutter_test:
