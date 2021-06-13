@@ -3,9 +3,25 @@
 A new Flutter package colorful_print develop by [R-Dap](https://r-dap.com)，this package can print colored message on the terminal at the place you want to print conspicuously, to avoid looking at a bunch of dense output and still can't find the output you want.
 
 ## Showcase
-<center>Colorful Text</center>  | <center>With Background Color</center>
-------------- | -------------
-<img src="https://i.imgur.com/qW76WaU.png"/>| <img src="https://i.imgur.com/HElTsNf.png"/> 
+
+<table>
+	<thead>
+		<td>
+			<b>Colorful Text</b>
+		</td>
+		<td>
+			<b>With Background Color</b>
+		</td>
+	</thead>
+	<tr>
+		<td>
+			<img src="https://i.imgur.com/qW76WaU.png"/>
+		</td>
+		<td>
+			<img src="https://i.imgur.com/HElTsNf.png"/> 
+		</td>
+	</tr>
+</table>
 
 ## Getting Started
 In your flutter project add the dependency:
