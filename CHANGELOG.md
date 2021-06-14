@@ -7,3 +7,4 @@
 ## 0.1.0-test1 - 2021-06-14 - Update reademe.md, Update some code.
 ## 0.1.0 - 2021-06-14 - Update reademe.md, Update some code.
 ## 0.1.1 - 2021-06-14 - Update reademe.md, Fix some bug.
+## 0.1.2 - 2021-06-14 - Update reademe.md, Fix some bug.
