@@ -1,6 +1,6 @@
 name: colorful_print
-description: Hi, everyone, A new very simple but practical Flutter package “colorful_print” developed by R-Dap, R-Dap is a young team from Taiwan, this package can print colored message on the terminal at the place you want to print conspicuously, to avoid looking at a bunch of dense output and still can't find the output you want. Sounds exciting, right? Try it out quickly!
-version: 0.1.0
+description: R-Dap is a young team from Taiwan, this package can print colored message on the terminal at the place you want to print conspicuously.
+version: 0.1.1
 homepage: https://www.r-dap.com
 repository: https://github.com/Ryan45758/colorful_print
 environment:

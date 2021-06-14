@@ -28,7 +28,7 @@ In your flutter project add the dependency:
 [![pub package](https://img.shields.io/pub/v/colorful_print.svg)](https://pub.dev/packages/colorful_print)
 ```yaml
 dependencies:
-  colorful_print: ^0.1.0
+  colorful_print: ^0.1.1
 ```
 ## Useage
 * `import 'package:colorful_print/colorful_print.dart';`
