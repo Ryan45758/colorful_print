@@ -1,6 +1,6 @@
 # colorful_print
 
-A new Flutter package colorful_print develop by [R-Dap](https://r-dap.com)，this package can print colored message on the terminal at the place you want to print conspicuously, to avoid looking at a bunch of dense output and still can't find the output you want.
+Hi, everyone, A new very simple but practical Flutter package “colorful_print” developed by [R-Dap](https://r-dap.com), [R-Dap](https://r-dap.com) is a young team from Taiwan, this package can print colored message on the terminal at the place you want to print conspicuously, to avoid looking at a bunch of dense output and still can't find the output you want. Sounds exciting, right? Try it out quickly!
 
 ## Showcase
 
@@ -15,10 +15,10 @@ A new Flutter package colorful_print develop by [R-Dap](https://r-dap.com)，thi
 	</thead>
 	<tr>
 		<td>
-			<img src="https://i.imgur.com/qW76WaU.png"/>
+			<img src="https://i.imgur.com/1U1thZp.png" width = 180 heigh = 279/>
 		</td>
 		<td>
-			<img src="https://i.imgur.com/HElTsNf.png"/>
+			<img src="https://i.imgur.com/JnpjROt.png" width = 180 heigh = 279/>
 	</tr>
 </table>
 
@@ -28,7 +28,7 @@ In your flutter project add the dependency:
 [![pub package](https://img.shields.io/pub/v/colorful_print.svg)](https://pub.dev/packages/colorful_print)
 ```yaml
 dependencies:
-  colorful_print: any
+  colorful_print: ^0.1.0
 ```
 ## Useage
 * `import 'package:colorful_print/colorful_print.dart';`
@@ -53,14 +53,15 @@ orange  |
 ```dart
 void main(){
     ...
-    Print.log(123, color: TextColor.black);
-    Print.log(123, color: TextColor.red);
-    Print.log(123, color: TextColor.green);
-    Print.log(123, color: TextColor.yellow);
-    Print.log(123, color: TextColor.blue);
-    Print.log(123, color: TextColor.cyan);
-    Print.log(123, color: TextColor.white);
-    Print.log(123, color: TextColor.orange);
+    printColor("Hello World!") //Default Color
+    printColor("Hello World!", textColor: TextColor.black);
+    printColor("Hello World!", textColor: TextColor.red);
+    printColor("Hello World!", textColor: TextColor.green);
+    printColor("Hello World!", textColor: TextColor.yellow);
+    printColor("Hello World!", textColor: TextColor.blue);
+    printColor("Hello World!", textColor: TextColor.cyan);
+    printColor("Hello World!", textColor: TextColor.white);
+    printColor("Hello World!", textColor: TextColor.orange);
     ...
 }
 ```
@@ -69,14 +70,14 @@ void main(){
 ```dart
 void main(){
     ...
-    Print.log(123, color: TextColor.black, backgroundColor: BackGroundColor.purple);
-    Print.log(123, color: TextColor.red, backgroundColor: BackGroundColor.white);
-    Print.log(123, color: TextColor.green, backgroundColor: BackGroundColor.cyan);
-    Print.log(123, color: TextColor.yellow, backgroundColor: BackGroundColor.blue);
-    Print.log(123, color: TextColor.blue, backgroundColor: BackGroundColor.yellow);
-    Print.log(123, color: TextColor.cyan, backgroundColor: BackGroundColor.green);
-    Print.log(123, color: TextColor.white, backgroundColor: BackGroundColor.red);
-    Print.log(123, color: TextColor.orange, backgroundColor: BackGroundColor.black);
+    printColor("Hello World!", textColor: TextColor.black, backgroundColor: BackGroundColor.purple);
+    printColor("Hello World!", textColor: TextColor.red, backgroundColor: BackGroundColor.white);
+    printColor("Hello World!", textColor: TextColor.green, backgroundColor: BackGroundColor.cyan);
+    printColor("Hello World!", textColor: TextColor.yellow, backgroundColor: BackGroundColor.blue);
+    printColor("Hello World!", textColor: TextColor.blue, backgroundColor: BackGroundColor.yellow);
+    printColor("Hello World!", textColor: TextColor.cyan, backgroundColor: BackGroundColor.green);
+    printColor("Hello World!", textColor: TextColor.white, backgroundColor: BackGroundColor.red);
+    printColor("Hello World!", textColor: TextColor.orange, backgroundColor: BackGroundColor.black);
     ...
 }
 ```

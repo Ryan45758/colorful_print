@@ -4,22 +4,22 @@ import 'package:colorful_print/colorful_print.dart';
 
 void main() {
   test('adds one to input values', () {
-    Print.log(123, color: TextColor.black);
-    Print.log(123, color: TextColor.red);
-    Print.log(123, color: TextColor.green);
-    Print.log(123, color: TextColor.yellow);
-    Print.log(123, color: TextColor.blue);
-    Print.log(123, color: TextColor.cyan);
-    Print.log(123, color: TextColor.white);
-    Print.log(123, color: TextColor.orange);
-
-   	Print.log(123, color: TextColor.black, backgroundColor: BackGroundColor.purple);
-    Print.log(123, color: TextColor.red, backgroundColor: BackGroundColor.white);
-    Print.log(123, color: TextColor.green, backgroundColor: BackGroundColor.cyan);
-    Print.log(123, color: TextColor.yellow, backgroundColor: BackGroundColor.blue);
-    Print.log(123, color: TextColor.blue, backgroundColor: BackGroundColor.yellow);
-    Print.log(123, color: TextColor.cyan, backgroundColor: BackGroundColor.green);
-    Print.log(123, color: TextColor.white, backgroundColor: BackGroundColor.red);
-    Print.log(123, color: TextColor.orange, backgroundColor: BackGroundColor.black);
+    printColor("Hello World!", textColor: TextColor.black);
+    printColor("Hello World!", textColor: TextColor.red);
+    printColor("Hello World!", textColor: TextColor.green);
+    printColor("Hello World!", textColor: TextColor.yellow);
+    printColor("Hello World!", textColor: TextColor.blue);
+    printColor("Hello World!", textColor: TextColor.cyan);
+    printColor("Hello World!", textColor: TextColor.white);
+    printColor("Hello World!", textColor: TextColor.orange);
+    printColor("");
+   	printColor("Hello World!", textColor: TextColor.black, backgroundColor: BackGroundColor.purple);
+    printColor("Hello World!", textColor: TextColor.red, backgroundColor: BackGroundColor.white);
+    printColor("Hello World!", textColor: TextColor.green, backgroundColor: BackGroundColor.cyan);
+    printColor("Hello World!", textColor: TextColor.yellow, backgroundColor: BackGroundColor.blue);
+    printColor("Hello World!", textColor: TextColor.blue, backgroundColor: BackGroundColor.yellow);
+    printColor("Hello World!", textColor: TextColor.cyan, backgroundColor: BackGroundColor.green);
+    printColor("Hello World!", textColor: TextColor.white, backgroundColor: BackGroundColor.red);
+    printColor("Hello World!", textColor: TextColor.orange, backgroundColor: BackGroundColor.black);
   });
 }

@@ -1,10 +1,9 @@
 library colorful_print;
 
-class Print {
-  static void log(message, {String color = '', String backgroundColor = ''}) {
-    print('\u001b[0m$backgroundColor$color$message\u001b[0m');
+
+  void printColor(message, {String textColor = '', String backgroundColor = ''}) {
+    print('\u001b[0m$backgroundColor$textColor$message\u001b[0m');
   }
-}
 
 class TextColor {
   static final String black = '\u001B[30m';
